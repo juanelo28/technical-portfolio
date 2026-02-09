@@ -1,48 +1,49 @@
 # Research & Systems Portfolio — Alejandro Sanchez Guinea
 
-This repository provides an index of selected research systems and
-implementations developed under my technical leadership and supervision,
-which form the foundation of my current work as founder and Chief Scientist
-at EyeTrustAI.
+This repository is an index of selected research systems and open-source implementations developed under my technical leadership and supervision. These works form part of the foundation for my current work as founder and Chief Scientist at **EyeTrustAI** (AI decision control under uncertainty).
 
-Primary reference:
+Primary reference (context + narrative):
 👉 https://www.alejandrosanchezguinea.com
 
----
-
-## Context
-
-Over the past decade, I have led and supervised research on uncertainty-aware
-AI, decision-making systems, and safety-critical machine learning across
-academia and industry.
-
-Most implementations were developed within PhD and MSc projects by the
-primary developers listed below. My role focused on system architecture,
-modeling choices, uncertainty representations, and validation strategies.
+> Note on attribution: implementations are hosted in the repositories of the primary developers. I do not mirror or fork student code here; links below point to the original sources.
 
 ---
 
-## Selected Systems
+## Selected Systems (Uncertainty, Decision Control, Neuro-Symbolic)
 
-### NeSyMoF — Neuro-Symbolic Motion Forecasting
-- Repository: https://gitlab.com/achref.d/nesymof
-- Context: IROS 2024
-- My role: Conceptual framing, neuro-symbolic model design, supervision
+### NeSyMoF — Neuro-Symbolic Motion Forecasting (IROS 2024)
+- Repo: https://gitlab.com/achref.d/nesymof
+- Focus: neuro-symbolic forecasting with explicit structure and uncertainty-aware reasoning.
 
-### DeSPITE — Multimodal Embeddings (Skeleton–Pointcloud–IMU–Text)
-- Repository: https://github.com/thkreutz/despite
-- Context: ICCV 2025
-- My role: Representation design, research direction, supervision
+### CLEAR-Command — Coordinated Listening, Extraction, and Allocation (NAACL Systems 2025)
+- Repo: https://gitlab.com/achref.d/clear-command
+- Focus: LLM-based emergency-response coordination with decision/control structure.
 
-### CLEAR-Command — Uncertainty-Aware Command & Control
-- Repository: https://gitlab.com/achref.d/clear-command
-- Context: NAACL Systems 2025
-- My role: System architecture, decision control concepts, supervision
+### KRPS — Knowledge/Reasoning for Planning under Uncertainty
+- Repo: https://gitlab.com/achref.d/krps
+- Focus: structured reasoning and planning components for uncertainty-aware systems.
 
 ---
 
-## Note
+## Selected Systems (LiDAR-First Human-Centric Scene Understanding)
 
-This repository intentionally does not mirror or fork student code.
-All links point to the original implementations to preserve proper
-attribution and authorship.
+### UMOSMOTS — Unsupervised 4D LiDAR Moving Object Segmentation (WACV 2023)
+- Repo: https://github.com/thkreutz/umosmots
+- Focus: 4D LiDAR motion segmentation in stationary settings via multivariate occupancy time series.
+
+### Crowd Orchestration Simulator (ICRA 2025)
+- Repo: https://github.com/thkreutz/crowdorchestrationsim
+- Focus: simulation framework for spatio-temporal spawn dynamics and crowd orchestration.
+
+### DeSPITE — Skeleton–Pointcloud–IMU–Text Embeddings (ICCV 2025)
+- Repo: https://github.com/thkreutz/despite
+- Focus: contrastive multimodal embeddings for human activity understanding.
+
+---
+
+## My role (across the projects above)
+Across these projects, my contributions typically focused on:
+- defining the system and decision architecture
+- specifying representations (uncertainty, multimodal structure, neuro-symbolic components)
+- shaping evaluation and validation strategy for safety-critical contexts
+- supervision, research direction, and publication strategy
