@@ -6,7 +6,7 @@ which form the foundation of my current work as founder and Chief Scientist
 at EyeTrustAI.
 
 Primary reference:
-👉 https://alejandrosanchezguinea.com
+👉 https://www.alejandrosanchezguinea.com
 
 ---
 
